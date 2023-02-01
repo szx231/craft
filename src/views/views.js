@@ -86,7 +86,7 @@ export class View {
 
     targetItem.ingredients.forEach((item) => {
       const craftCell = this.createElement("img");
-      const imageUrl = `/src/images/item/${item}.jpg`;
+      const imageUrl = `../../../images/item/${item}.jpg`;
 
       craftCell.className = "dragZoneCell";
       craftCell.setAttribute("data-zone", item);
