@@ -1,9 +1,7 @@
 import { emitter } from "../EventEmitter/EventEmitter";
 import { backPackItems } from "../mockData/backpack/backpack";
-import recipeImage from "../images/recipe.jpg";
-
 import { dataRecipe } from "../mockData/recipe/recipe";
-
+const recipeImage = "../../../images/recipe.jpg";
 export class Model {
   constructor() {
     const store = JSON.parse(localStorage.getItem("items"));
