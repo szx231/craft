@@ -1,6 +1,6 @@
 import { emitter } from "../EventEmitter/EventEmitter";
-const backPackImage = "../images/backPack.png";
-const recipeImage = "../images/recipe.jpg";
+const backPackImage = "./images/backPack.png";
+const recipeImage = "./images/recipe.jpg";
 
 export class View {
   constructor() {
@@ -86,7 +86,7 @@ export class View {
 
     targetItem.ingredients.forEach((item) => {
       const craftCell = this.createElement("img");
-      const imageUrl = `../../../images/item/${item}.jpg`;
+      const imageUrl = `./images/item/${item}.jpg`;
 
       craftCell.className = "dragZoneCell";
       craftCell.setAttribute("data-zone", item);
