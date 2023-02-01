@@ -1,7 +1,7 @@
 export const backPackItems = [
-  { name: "blitzKnuckles", image: "../../../images/item/blitzKnuckles.jpg" },
-  { name: "claymore", image: "../../../images/item/claymore.jpg" },
-  { name: "demonEdge", image: "../../../images/item/demonEdge.jpg" },
+  { name: "blitzKnuckles", image: "./images/item/blitzKnuckles.jpg" },
+  { name: "claymore", image: "../images/item/claymore.jpg" },
+  { name: "demonEdge", image: "images/item/demonEdge.jpg" },
   { name: "eaglesong", image: "../../../images/item/eaglesong.jpg" },
   { name: "javelin", image: "../../../images/item/javelin.jpg" },
   { name: "mithrilHammer", image: "../../../images/item/mithrilHammer.jpg" },
