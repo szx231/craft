@@ -1,6 +1,6 @@
-const backPackImage = "../images/backPack.png";
-const recipeImage = "./images/recipe.jpg";
 import { emitter } from "../EventEmitter/EventEmitter";
+const backPackImage = "../images/backPack.png";
+const recipeImage = "../images/recipe.jpg";
 
 export class View {
   constructor() {
