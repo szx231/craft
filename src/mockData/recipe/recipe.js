@@ -1,7 +1,7 @@
 export const dataRecipe = [
   {
     name: "aghanims_scepter",
-    image: "/src/images/goods/aghanims_scepter.jpg",
+    image: "../../images/goods/aghanims_scepter.jpg",
     ingredients: ["pointBooster", "staffOfWizardry", "ogreAxe", "bladeOfalacrity"],
   },
   {
